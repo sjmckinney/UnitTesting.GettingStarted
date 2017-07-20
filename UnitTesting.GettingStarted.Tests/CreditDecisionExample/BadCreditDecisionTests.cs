@@ -40,6 +40,7 @@ namespace UnitTesting.GettingStarted.Tests.CreditDecisionExample
 
         CreditDecision systemUnderTest;
 
+        [TestCase(676, "Declined")]
         [TestCase(100, "Declined")]
         [TestCase(549, "Declined")]
         [TestCase(550, "Maybe")]
